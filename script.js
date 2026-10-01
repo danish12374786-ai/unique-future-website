@@ -1,0 +1,1 @@
+function toggleMenu(){const n=document.getElementById('navLinks');n.style.display=n.style.display==='flex'?'none':'flex'}document.querySelectorAll('#navLinks a').forEach(a=>a.addEventListener('click',()=>{if(innerWidth<=800)document.getElementById('navLinks').style.display='none'}));
